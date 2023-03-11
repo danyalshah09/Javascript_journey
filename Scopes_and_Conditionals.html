@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and Conditionals</title>
+</head>
+
+<body>
+    <!-- div>ul>{item-$}*4 -->
+    <div>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+            <li>item-5</li>
+            <li>item-6</li>
+            <li>item-7</li>
+        </ul>
+    </div>
+    <script>
+        var string1 = "This is a string";
+        var string1 = "This is a string 2";//redeclaring variable 
+        console.log(string1)
+
+        //block level scope of variable
+        Use let instead of var in the coding of programming
+        let a = "u";
+        {
+            let a = "u6"
+            console.log(a)
+        }
+        console.log(a)
+        //We use constant in that place where we want the variable not to be changed
+        const a = "This can never be changed";
+        a = "I want to change myself";
+        console.log(a)
+
+
+        ----------- If Else in Javascript------------------
+            where is If else used in web developemnt 
+        Form validation if not @form cannot be submitted
+        let age = 10;
+        if (age > 18) {
+            console.log("You can drink Hunza Water")
+        }
+        else if (age == 2) {
+            console.log("age is 2")
+        }
+        else {
+            console.log("You are burger boii ")
+        }
+
+
+       // ----------- Switch Case Statements in Javascript------------------
+            without the break statement it will run all the statements
+        const day = "Sunday";
+        switch (day) {
+            case "Monday":
+                console.log("Hate this busy day");
+                break;
+            case "Tuesday":
+                console.log("Almost good");
+                break;
+            case "Wednesday":
+                console.log("Very Cool");
+                break;
+                console.log("Free huraah");
+                break;
+            case "Friday":
+                console.log("Pray only");
+                break;
+            case "Saturday":
+                console.log("Relax day");
+                break;
+            case "Sunday":
+                console.log("Funday");
+                break;
+            default:
+                break;
+        }
+
+
+    </script>
+</body>
+
+</html>
