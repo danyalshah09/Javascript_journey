@@ -1,3 +1,4 @@
+//learnt about functions why they are used and basic syntax in javascipt to define and call functions
 console.log("Always Eager to learn javascipt");
 
 
