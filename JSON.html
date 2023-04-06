@@ -1,0 +1,44 @@
+<!-- JAVASCRIPT OBJECT NOTATION -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Tutorial</title>
+</head>
+<body>
+    <div class="container">
+
+
+Hello I am DANYY
+    </div>
+
+    <script>
+let jsonObj={
+ name:"Danny",
+ interest:"Web 2.0",
+ language:"Python",
+ Future:"Business only"
+}
+console.log(jsonObj)
+
+//converting the jsonObject to string using strinify
+let jsonJsonStr=JSON.stringify(jsonObj)
+console.log(jsonJsonStr)
+    
+
+//altered web with ai
+//can apply all the function applicable to a string
+myJsonStr = jsonJsonStr.replace('Web 2.0','AI')
+console.log(myJsonStr)
+
+
+//converting back to json Object
+new_Str = JSON.parse(myJsonStr)
+console.log(new_Str)
+
+</script>
+</body>
+</html>
